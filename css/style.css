@@ -1,0 +1,31 @@
+.box {
+  margin: 200px auto;
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.header {
+  font-size: 40px;
+  font-weight: 900;
+  color: #ff0000;
+}
+.circle{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.button{
+    background-color: #ff0000;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
